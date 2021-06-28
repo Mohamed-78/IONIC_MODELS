@@ -17,3 +17,4 @@ use App\Http\Controllers\WebsiteController;
 Route::get('/', [WebsiteController::class, 'welcome'])->name("welcome");
 Route::get('/contact', [WebsiteController::class, 'contacts'])->name("contact");
 Route::get('/details', [WebsiteController::class, 'details'])->name("detailsPage");
+Route::get('/home', [WebsiteController::class, 'home'])->name("home");
